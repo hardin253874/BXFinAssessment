@@ -7,7 +7,7 @@ namespace BXFinAssessment.Controllers
 {
     public class arraycalcController : ApiController
     {
-        // GET api/<controller>
+        // GET api/<controller>/<action>
         [HttpGet]
         [ActionName("reverse")]
         public int[] Reverse([FromUri] int[] productIds)

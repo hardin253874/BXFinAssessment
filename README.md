@@ -13,27 +13,42 @@ IProductService / ProductService
 
 [Questions]
 
- Question 1
+Question 1
 
-o Browser Input
+Browser Input
+
 /api/arraycalc/reverse?productIds=1&amp;productIds=2&amp;productIds=3&amp;productIds=4&amp;prod
 uctIds=5
-o Browser Result
+ 
+Browser Result
+
 [5,4,3,2,1]
-o Condition
- Implement with pure array manipulation
- Don’t use Array.reverse() method
- Don’t use Linq
+
+Condition
+
+Implement with pure array manipulation
+
+Don’t use Array.reverse() method
+
+Don’t use Linq
 
 
- Question 2
+Question 2
 
-o Browser Input
+Browser Input
+
 /api/arraycalc/deletepart?position=3&amp;productIds=1&amp;productIds=2&amp;productIds=3&amp;prod
 uctIds=4&amp;productIds=5
-o Browser Result
+
+Browser Result
+
 [1,2,4,5]
-o Condition
- Implement with pure array manipulation
- Don’t use RemoveAt
- Don’t use Linq
+
+
+Condition
+
+Implement with pure array manipulation
+
+Don’t use RemoveAt
+
+Don’t use Linq

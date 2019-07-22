@@ -36,7 +36,7 @@ namespace BXFinAssessment.Controllers
                 throw new HttpResponseException(Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Invalid productIds array"));
             }
 
-            if (input.position < 0 || input.position >= input.productIds.Length)
+            if (input.position <= 0 || input.position >= input.productIds.Length)
             {
                 throw new HttpResponseException(Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Invalid position"));
             }
